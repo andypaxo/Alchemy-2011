@@ -10,11 +10,12 @@ while (have_posts()) {
 	
 ?>
 <article id='post-<?php the_ID(); ?>' <?php if($isFirst) post_class('feature'); else post_class(); ?>>
-	<a href='<?php the_permalink(); ?>' rel='bookmark'>
+	
 		<header>
-			<h1><?php the_title(); ?></h1>
+			<h1><a href='<?php the_permalink(); ?>' rel='bookmark'><?php the_title(); ?></a></h1>
+			<?php the_excerpt(); ?>
 		</header>
-	</a>
+	
 </article>
 <?php
 $isFirst = false;
