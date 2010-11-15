@@ -5,6 +5,7 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <title><?php wp_title(); bloginfo('name'); ?></title>
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if lt IE 9]><link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(), '/iehacks.css'; ?>" /><![endif]-->
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(), '/html5reset.css'; ?>" />
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />

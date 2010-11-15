@@ -7,11 +7,17 @@ Version: 1.0
 All Rights Reserved
 */
 
-body			{ background-color:black }
+body			{ background-color:black; color:white }
 #main			{ width:900px; margin:0 auto 0 auto; background:black url('header.png') no-repeat left top }
 
 header			{ padding:16px 0 0 0 }
 header h1		{ float:left}
 nav				{ float:right; clear:none }
-nav li			{ width:80px; height:48px; background:transparent url('infobox.png') no-repeat left top; text-align:center; padding-top:8px }
+nav li			{ background:transparent url('infobox.png') no-repeat left top; text-align:center; padding-top:8px }
+nav li a		{ display: block; width:80px; height:48px; }
 nav li:hover	{ background-image:url('infobox-hover.png') }
+
+.feature		{ width:864px; }
+article			{ width:416px; height:96px; float:left; background-color:rgba(0, 0, 0, 0.8); margin:16px }
+
+footer			{ clear:both; }
