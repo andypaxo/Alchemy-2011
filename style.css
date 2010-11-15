@@ -7,3 +7,7 @@ Version: 1.0
 All Rights Reserved
 */
 
+body { background-color:black }
+#main { width:900px; margin:0 auto 0 auto; background:black url('header.png') no-repeat left top }
+
+h1 { padding:16px 0 0 0 }
