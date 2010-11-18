@@ -7,21 +7,24 @@ Version: 1.0
 All Rights Reserved
 */
 
-body			{ background-color:black; color:white; font-family:sans-serif }
-#main			{ width:900px; margin:0 auto 0 auto; background:black url('header.png') no-repeat left top }
+body				{ background-color:black; color:white; font-family:sans-serif }
+#main				{ width:900px; margin:0 auto 0 auto; background:black url('header.png') no-repeat left top }
 
-header			{ padding:16px 0 0 0 }
-header h1		{ float:left}
-nav				{ float:right; clear:none; margin-right:20px }
-nav li			{ background:transparent url('infobox.png') no-repeat left top; text-align:center; padding-top:8px }
-nav li a		{ display: block; width:48px; height:48px; }
-nav li:hover	{ background-image:url('infobox-hover.png') }
+header				{ padding:16px 0 0 0 }
+header h1			{ float:left}
+nav					{ float:right; clear:none; margin-right:20px }
+nav li				{ background:transparent url('infobox.png') no-repeat left top; text-align:center; padding-top:8px }
+nav li a			{ display: block; width:48px; height:48px; }
+nav li:hover		{ background-image:url('infobox-hover.png') }
 
-.feature		{ width:832px; }
-article			{ width:384px; float:left; background-color:rgba(0, 0, 0, 0.8); margin:16px; padding:16px }
-article header	{ padding:0; display:block; height:64px; overflow:hidden; }
-article h1		{ font-family:'Segoe UI Bold'; float:none }
-article a		{ color:white; text-decoration:none }
-article p		{ padding-top:0.5em; font-family:'Segoe UI Light'; line-height:1.3em }
+.feature,
+.single article		{ width:832px; }
+article				{ width:384px; float:left; background-color:rgba(0, 0, 0, 0.8); margin:16px; padding:16px }
+article header		{ padding:0; display:block; height:64px; overflow:hidden; }
+.single header		{ height:auto; }
+article h1			{ font-family:'Segoe UI Bold'; float:none }
+article a:hover		{ color:#00d59d }
+article a			{ color:white; text-decoration:none }
+article p			{ padding-top:0.5em; font-family:'Segoe UI Light'; line-height:1.3em }
 
-footer			{ clear:both; }
+footer				{ clear:both; }
