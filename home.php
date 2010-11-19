@@ -20,6 +20,10 @@ while (have_posts()) {
 <?php
 $isFirst = false;
 }
-
-get_footer();
 ?>
+
+<nav>
+<?php posts_nav_link(' ', 'Newer', 'Older'); ?>
+</nav>
+
+<?php get_footer(); ?>

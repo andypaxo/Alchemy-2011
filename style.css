@@ -12,10 +12,10 @@ body				{ background-color:black; color:white; font-family:sans-serif }
 
 header				{ padding:16px 0 0 0 }
 header h1			{ float:left}
-nav					{ float:right; clear:none; margin-right:20px }
-nav li				{ background:transparent url('infobox.png') no-repeat left top; text-align:center; padding-top:8px }
-nav li a			{ display: block; width:48px; height:48px; }
-nav li:hover		{ background-image:url('infobox-hover.png') }
+header nav			{ float:right; clear:none; margin-right:20px }
+header nav li		{ background:transparent url('infobox.png') no-repeat left top; text-align:center; padding-top:8px }
+header nav li a		{ display: block; width:48px; height:48px; }
+header nav li:hover	{ background-image:url('infobox-hover.png') }
 
 .feature,
 .single article		{ width:832px; }
@@ -26,5 +26,7 @@ article h1			{ font-family:'Segoe UI Bold'; float:none }
 article a:hover		{ color:#00d59d }
 article a			{ color:white; text-decoration:none }
 article p			{ padding-top:0.5em; font-family:'Segoe UI Light'; line-height:1.3em }
+
+nav					{ text-align:center; clear:both; }
 
 footer				{ clear:both; }
